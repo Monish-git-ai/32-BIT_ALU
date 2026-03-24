@@ -7,7 +7,7 @@ To verify functionality using the Test Bench, synthesize and analyse area and Po
 ## Tool Required:
 Functional Simulation: Incisive Simulator (ncvlog, nclaunch, ncsim)
 
-Synthesise using Genus
+Synthesise using Genus 
 
 ## Design Information and Block Diagram:
 The ALU will take in two 32-bit values and a control line. An Arithmetic unit does the following tasks like addition, subtraction, multiplication and logical operations. As the input is given in 32-bit, we get a 32-bit output. The arithmetic will show only one output at a time, so a selector is necessary to select one of the operators.
